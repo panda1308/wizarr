@@ -9,7 +9,7 @@
 <section class="py-5 bg-gray-50 dark:bg-gray-900">
     <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto lg:py-0">
         <a href="#" class="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white">
-            Wizarr Admin Panel
+            3F's Cinebox - Khu vực quản trị
         </a>
         {% if needUpdate %}
         <a href="https://github.com/Wizarrrr/wizarr"
@@ -20,7 +20,7 @@
             class="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
             <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
                 <h1 class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
-                    {{ _("Invite user") }}
+                    {{ _("Mời thành viên") }}
                 </h1>
                 {% if update_msg %}
                 <div class="p-4 mb-4 text-sm text-yellow-700 bg-yellow-100 rounded-lg dark:bg-yellow-200 dark:text-yellow-800"
@@ -38,27 +38,27 @@
                                 class="text-gray-500">{{ _("(optional)") }}</a></label>
                         <input minlength="6" maxlength="6" type="code" name="code" id="code"
                             class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-amber-600 focus:border-amber-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-amber-500 dark:focus:border-amber-500"
-                            placeholder="XMFGEJI">
+                            placeholder="HIU0BEO">
                     </div>
                     <div>
                         <label for="expires"
-                            class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">{{ _("Expiration") }}</label>
+                            class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">{{ _("Hạn hội viên") }}</label>
                         <select id="expires" name="expires"
                             class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                            <option value="day">{{ _("1 day") }}</option>
-                            <option value="week">{{ _("1 week") }}</option>
-                            <option value="month">{{ _("1 month") }}</option>
-                            <option value="never">{{ _("Never") }}</option>
+                            <option value="day">{{ _("1 ngày") }}</option>
+                            <option value="week">{{ _("1 tuần") }}</option>
+                            <option value="month">{{ _("1 tháng") }}</option>
+                            <option value="never">{{ _("Vô hạn") }}</option>
                         </select>
                     </div>
                     <div class="flex items-center mb-4">
                         <input id="unlimited" name="unlimited" type="checkbox" value="  "
                             class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                         <label for="unlimited"
-                            class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">{{ _("Unlimited Usages") }}</label>
+                            class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">{{ _("Lần sử dụng vô hạn") }}</label>
                     </div>
                     <button type="submit"
-                        class="w-full text-white bg-amber-600 hover:bg-amber-700 focus:ring-4 focus:outline-none focus:ring-amber-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-amber-600 dark:hover:bg-amber-700 dark:focus:ring-amber-800">{{ _("Create Invitation") }}</button>
+                        class="w-full text-white bg-amber-600 hover:bg-amber-700 focus:ring-4 focus:outline-none focus:ring-amber-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-amber-600 dark:hover:bg-amber-700 dark:focus:ring-amber-800">{{ _("Tạo lời mời") }}</button>
                 </form>
                 <div class="text-center">
                     <a href="/settings">
@@ -72,7 +72,7 @@
                                     d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                             </svg>
 
-                            {{ _("Server Settings") }}
+                            {{ _("Tùy chỉnh máy chủ") }}
                         </button>
                     </a>
                 </div>
@@ -80,12 +80,12 @@
                 {% if link %}
                 <div>
                     <label for="link"
-                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">{{ _("Successfully generated an Invitation!") }}</label>
+                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">{{ _("Đã tạo lời mời thành công!") }}</label>
                     <input disabled type="link" name="link" id="link"
                         class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-amber-600 focus:border-amber-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                         value="{{ link }}">
                     <p hidden id="successfully_copied" class="mt-2 text-sm text-green-600 dark:text-green-500"><span
-                            class="font-medium">{{ _("Great!") }}</span>{{ _("Link has been copied to clipboard!") }}
+                            class="font-medium">{{ _("Tuyệt!") }}</span>{{ _("Link đã được sao chép vào bộ nhớ đệm!") }}
                     </p>
 
                 </div>
@@ -93,12 +93,12 @@
                     <div class="w-1/2 text-center">
                         <a href="/invite">
                             <button type="back"
-                                class="w-3/4 text-amber-400 hover:text-white border border-amber-400 hover:bg-amber-500 focus:ring-4 focus:outline-none focus:ring-amber-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-amber-300 dark:text-amber-300 dark:hover:text-white dark:hover:bg-amber-400 dark:focus:ring-amber-900">{{ _("Back") }}</button>
+                                class="w-3/4 text-amber-400 hover:text-white border border-amber-400 hover:bg-amber-500 focus:ring-4 focus:outline-none focus:ring-amber-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-amber-300 dark:text-amber-300 dark:hover:text-white dark:hover:bg-amber-400 dark:focus:ring-amber-900">{{ _("Quay lại") }}</button>
                         </a>
                     </div>
                     <div class="w-1/2 text-center">
                         <button onclick="copyLink()" type="share"
-                            class="w-3/4 text-white bg-amber-600 hover:bg-amber-700 focus:ring-4 focus:outline-none focus:ring-amber-300 font-medium rounded-lg text-sm px-3 py-2.5 text-center dark:bg-amber-600 dark:hover:bg-amber-700 dark:focus:ring-amber-800">{{ _("Share") }}</button>
+                            class="w-3/4 text-white bg-amber-600 hover:bg-amber-700 focus:ring-4 focus:outline-none focus:ring-amber-300 font-medium rounded-lg text-sm px-3 py-2.5 text-center dark:bg-amber-600 dark:hover:bg-amber-700 dark:focus:ring-amber-800">{{ _("Chia sẻ") }}</button>
 
                     </div>
 
@@ -114,25 +114,25 @@
             <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                 <tr>
                     <th scope="col" class="py-3 px-6">
-                        {{ _("Invite Code") }}
+                        {{ _("Mã lời mời") }}
                     </th>
                     <th scope="col" class="py-3 px-6">
-                        {{ _("Used") }}
+                        {{ _("Đã sử dụng") }}
                     </th>
                     <th scope="col" class="py-3 px-6">
-                        {{ _("Used At") }}
+                        {{ _("Đã sử dụng vào") }}
                     </th>
                     <th scope="col" class="py-3 px-6">
-                        {{ _("Created") }}
+                        {{ _("Đã tạo") }}
                     </th>
                     <th scope="col" class="py-3 px-6">
-                        {{ _("User") }}
+                        {{ _("Thành viên") }}
                     </th>
                     <th scope="col" class="py-3 px-6">
-                        {{ _("Expires") }}
+                        {{ _("Hết hạn") }}
                     </th>
                     <th scope="col" class="py-3 px-6">
-                        {{ _("Unlimited") }}
+                        {{ _("Vô hạn") }}
                     </th>
                     <th scope="col" class="py-3 px-6">
 
@@ -169,9 +169,9 @@
                     {% endif %}
                     <td class="py-4 px-6">{{ invite.unlimited }}</td>
                     <td class="py-4 px-6"><a id="copy_{{ invite.code}}" class="font-bold"
-                            onclick="tableCopyLink('{{ url }}', '{{ invite.code }}')" href="#">{{ _("Copy") }}</a></td>
+                            onclick="tableCopyLink('{{ url }}', '{{ invite.code }}')" href="#">{{ _("Sao chép") }}</a></td>
                     <td class="py-4 px-6"><a class="font-bold"
-                            href="/invite/delete={{ invite.code }}">{{ _("Delete") }}</a></td>
+                            href="/invite/delete={{ invite.code }}">{{ _("Xóa") }}</a></td>
                 </tr>
                 {% endfor %}
             </tbody>

@@ -8,7 +8,7 @@ Login
 
 <section class="bg-gray-50 dark:bg-gray-900">
   <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
-    <title>3F's Cinebox Membership System</title>
+    <title>3F's Cinebox - Hội Viên</title>
     <a href="#" class="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white">
       Chào mừng bạn đến với hệ thống!
     </a>
@@ -21,13 +21,13 @@ Login
         <p class="mt-2 text-sm text-red-600 dark:text-red-500"><span class="font-medium">{{ error }}</p>
         <form class="space-y-4 md:space-y-6" action="/login" method="POST">
           <div>
-            <label for="username" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">{{ _("Địa chỉ e-mail") }}</label>
+            <label for="username" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">{{ _("Địa chỉ e-mail:") }}</label>
             <input type="username" name="username" id="username"
               class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-amber-600 focus:border-amber-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-              placeholder="3fcinebox" required="">
+              placeholder="xemphimprovip@gmail.com" required="">
           </div>
           <div>
-            <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">{{ _("Mật khẩu") }}</label>
+            <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">{{ _("Mật khẩu:") }}</label>
             <input type="password" name="password" id="password" placeholder="••••••••"
               class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-amber-600 focus:border-amber-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
               required="">
