@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-01-26 08:30+0000\n"
+"POT-Creation-Date: 2023-01-26 11:13+0000\n"
 "PO-Revision-Date: 2023-01-21 21:55+0000\n"
 "Last-Translator: Matthieu B <matthieu@jaseroque.com>\n"
 "Language: fr\n"
@@ -273,29 +273,33 @@ msgstr "Vous n’avez pas encore de compte Plex ?"
 msgid "Get one here."
 msgstr "Créez-en un ici."
 
-#: app/templates/login.html:18
-msgid "Login"
-msgstr "Connexion"
+#: app/templates/login.html:19 app/templates/login.html:47
+msgid "Đăng nhập"
+msgstr ""
 
-#: app/templates/login.html:23 app/templates/register_admin.html:24
-msgid "Username"
-msgstr "Nom d’utilisateur"
+#: app/templates/login.html:24
+msgid "Địa chỉ e-mail"
+msgstr ""
 
-#: app/templates/login.html:29 app/templates/register_admin.html:30
-msgid "Password"
-msgstr "Mot de passe"
+#: app/templates/login.html:30
+msgid "Mật khẩu"
+msgstr ""
 
-#: app/templates/login.html:41
-msgid "Remember me"
-msgstr "Se souvenir de moi"
-
-#: app/templates/login.html:46
-msgid "Sign in"
-msgstr "Se connecter"
+#: app/templates/login.html:42
+msgid "Ghi nhớ"
+msgstr ""
 
 #: app/templates/register_admin.html:18 app/templates/verify_plex.html:18
 msgid "Setup Wizarr"
 msgstr "Configurer Wizarr"
+
+#: app/templates/register_admin.html:24
+msgid "Username"
+msgstr "Nom d’utilisateur"
+
+#: app/templates/register_admin.html:30
+msgid "Password"
+msgstr "Mot de passe"
 
 #: app/templates/register_admin.html:36
 msgid "Confirm password"
@@ -625,4 +629,13 @@ msgstr "Créer un compte Plex"
 #: app/templates/welcome.html:22
 msgid "I have a Plex Account"
 msgstr "J'ai déjà un compte Plex"
+
+#~ msgid "Login"
+#~ msgstr "Connexion"
+
+#~ msgid "Remember me"
+#~ msgstr "Se souvenir de moi"
+
+#~ msgid "Sign in"
+#~ msgstr "Se connecter"
 
