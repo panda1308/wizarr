@@ -12,7 +12,7 @@ jobs:
       - name: Prepare parameters
         id: prep
         run: |
-          DOCKER_IMAGE=ghcr.io/wizarrrr/wizarr
+          DOCKER_IMAGE=ghcr.io/panda1308/wizarr
           TAGS="${DOCKER_IMAGE}:dev"
           # Set output parameters.
           echo ::set-output name=tags::${TAGS}
