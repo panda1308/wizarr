@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-01-26 11:13+0000\n"
+"POT-Creation-Date: 2023-01-26 13:05+0000\n"
 "PO-Revision-Date: 2023-01-21 21:55+0000\n"
 "Last-Translator: Matthieu B <matthieu@jaseroque.com>\n"
 "Language: fr\n"
@@ -68,57 +68,54 @@ msgstr ""
 "administrateur."
 
 #: app/templates/401.html:20
-msgid "Permission denied."
-msgstr "Permission refusée."
+msgid "Truy cập bị từ chối."
+msgstr ""
 
 #: app/templates/401.html:23
-msgid "You are attempting to do something you shouldn't be doing..."
-msgstr "Vous tentez de faire quelque chose que vous ne devriez pas faire..."
+msgid "Bạn không nên ở đây.."
+msgstr ""
 
 #: app/templates/404.html:19
-msgid "Something's missing."
-msgstr "Il manque quelque chose."
+msgid "Có gì đó thiếu thiếu."
+msgstr ""
 
 #: app/templates/404.html:21
-msgid "Sorry, we can't find that page. It doesn't seem to exist!"
-msgstr "Désolé, nous ne trouvons pas cette page. On dirait qu'elle n'existe pas !"
+msgid "Xin lỗi, mục này không tồn tại!"
+msgstr ""
 
 #: app/templates/500.html:19
-msgid "Internal Server Error."
-msgstr "Erreur interne du serveur."
+msgid "Lỗi hệ thống."
+msgstr ""
 
 #: app/templates/500.html:21
-msgid " Something has gone wrong. Please try again later."
-msgstr " Quelque chose s'est mal passé. Veuillez réessayer plus tard."
+msgid " Có gì đó sai sai. Vui lòng thử lại sau."
+msgstr ""
 
 #: app/templates/accept.html:4
 msgid "Accept Invitation"
 msgstr "Accepter l'invitation"
 
-#: app/templates/accept.html:11 app/templates/wizard/accept.html:2
-msgid "Accept our invitation"
-msgstr "Accepter notre invitation"
-
-#: app/templates/accept.html:15 app/templates/wizard/accept.html:6
-msgid "We have sent an invitation to your Plex Account! Almost there!"
-msgstr "Nous avons envoyé une invitation à votre compte Plex ! On y est presque !"
-
-#: app/templates/accept.html:17 app/templates/wizard/accept.html:8
-msgid ""
-"Click the button below to be taken to Plex, here you will see an "
-"invitation from us."
+#: app/templates/accept.html:11
+msgid "Chấp nhận lời mời của chúng tôi"
 msgstr ""
-"Cliquez sur le bouton ci-dessous pour accéder à Plex, vous y trouverez "
-"une invitation de notre part."
 
-#: app/templates/accept.html:23 app/templates/wizard/accept.html:14
-msgid "Accept"
-msgstr "Accepter"
+#: app/templates/accept.html:15
+msgid "Chúng tôi đã gửi lời mời vào kho tới tài khoản Plex của bạn! Sắp xong rồi!"
+msgstr ""
 
-#: app/templates/accept.html:31 app/templates/requests.html:71
-#: app/templates/wizard/accept.html:23
-msgid "Next"
-msgstr "Suivant"
+#: app/templates/accept.html:17
+msgid ""
+"Bấm nút phía dưới để được đưa tới Plex, tại đây bạn sẽ thấy lời mời từ "
+"chúng tôi."
+msgstr ""
+
+#: app/templates/accept.html:23
+msgid "Chấp nhận"
+msgstr ""
+
+#: app/templates/accept.html:31
+msgid "Tiếp theo"
+msgstr ""
 
 #: app/templates/invite.html:4
 msgid "Invite User"
@@ -133,8 +130,8 @@ msgid "Update available. Click here."
 msgstr "Mise à jour disponible. Cliquez ici."
 
 #: app/templates/invite.html:23
-msgid "Invite user"
-msgstr "Inviter un utilisateur"
+msgid "Mời thành viên"
+msgstr ""
 
 #: app/templates/invite.html:29
 msgid ""
@@ -157,132 +154,139 @@ msgid "(optional)"
 msgstr "(facultatif)"
 
 #: app/templates/invite.html:45
-msgid "Expiration"
-msgstr "Expiration"
+msgid "Hạn hội viên"
+msgstr ""
 
 #: app/templates/invite.html:48
-msgid "1 day"
-msgstr "1 jour"
+msgid "1 ngày"
+msgstr ""
 
 #: app/templates/invite.html:49
-msgid "1 week"
-msgstr "1 semaine"
+msgid "1 tuần"
+msgstr ""
 
 #: app/templates/invite.html:50
-msgid "1 month"
-msgstr "1 mois"
+msgid "1 tháng"
+msgstr ""
 
-#: app/templates/invite.html:51 app/templates/invite.html:168
+#: app/templates/invite.html:51 app/templates/invite.html:135
+msgid "Vô hạn"
+msgstr ""
+
+#: app/templates/invite.html:58
+msgid "Lần sử dụng vô hạn"
+msgstr ""
+
+#: app/templates/invite.html:61
+msgid "Tạo lời mời"
+msgstr ""
+
+#: app/templates/invite.html:75
+msgid "Tùy chỉnh máy chủ"
+msgstr ""
+
+#: app/templates/invite.html:83
+msgid "Đã tạo lời mời thành công!"
+msgstr ""
+
+#: app/templates/invite.html:88
+msgid "Tuyệt!"
+msgstr ""
+
+#: app/templates/invite.html:88
+msgid "Link đã được sao chép vào bộ nhớ đệm!"
+msgstr ""
+
+#: app/templates/invite.html:96
+msgid "Quay lại"
+msgstr ""
+
+#: app/templates/invite.html:101
+msgid "Chia sẻ"
+msgstr ""
+
+#: app/templates/invite.html:117
+msgid "Mã lời mời"
+msgstr ""
+
+#: app/templates/invite.html:120
+msgid "Đã sử dụng"
+msgstr ""
+
+#: app/templates/invite.html:123
+msgid "Đã sử dụng vào"
+msgstr ""
+
+#: app/templates/invite.html:126
+msgid "Đã tạo"
+msgstr ""
+
+#: app/templates/invite.html:129
+msgid "Thành viên"
+msgstr ""
+
+#: app/templates/invite.html:132
+msgid "Hết hạn"
+msgstr ""
+
+#: app/templates/invite.html:168
 msgid "Never"
 msgstr "Jamais"
 
-#: app/templates/invite.html:58
-msgid "Unlimited Usages"
-msgstr "Utilisations illimitées"
-
-#: app/templates/invite.html:61
-msgid "Create Invitation"
-msgstr "Créer une invitation"
-
-#: app/templates/invite.html:75
-msgid "Server Settings"
-msgstr "Paramètres du serveur"
-
-#: app/templates/invite.html:83
-msgid "Successfully generated an Invitation!"
-msgstr "Invitation générée avec succès !"
-
-#: app/templates/invite.html:88
-msgid "Great!"
-msgstr "Super !"
-
-#: app/templates/invite.html:88
-msgid "Link has been copied to clipboard!"
-msgstr "Le lien a été copié dans le presse-papiers !"
-
-#: app/templates/invite.html:96
-msgid "Back"
-msgstr "Retour"
-
-#: app/templates/invite.html:101
-msgid "Share"
-msgstr "Partager"
-
-#: app/templates/invite.html:117 app/templates/join.html:42
-#: app/templates/join.html:51
-msgid "Invite Code"
-msgstr "Code d'invitation"
-
-#: app/templates/invite.html:120
-msgid "Used"
-msgstr "Utilisé"
-
-#: app/templates/invite.html:123
-msgid "Used At"
-msgstr "Utilisation"
-
-#: app/templates/invite.html:126
-msgid "Created"
-msgstr "Création"
-
-#: app/templates/invite.html:129
-msgid "User"
-msgstr "Utilisateur"
-
-#: app/templates/invite.html:132
-msgid "Expires"
-msgstr "Expiration"
-
-#: app/templates/invite.html:135
-msgid "Unlimited"
-msgstr "Illimité"
-
 #: app/templates/invite.html:172
-msgid "Copy"
-msgstr "Copier"
+msgid "Sao chép"
+msgstr ""
 
 #: app/templates/invite.html:174
-msgid "Delete"
-msgstr "Supprimer"
+msgid "Xóa"
+msgstr ""
 
 #: app/templates/join.html:12
-msgid "Great! Now, let's get you invited!"
-msgstr "Super ! Maintenant, on va vous inviter !"
+msgid "Đã tới lúc tham gia vào kho phim rồi!"
+msgstr ""
 
 #: app/templates/join.html:18
-msgid "Join the Plex Server"
-msgstr "Rejoindre le serveur Plex"
+msgid "Tham gia kho phim"
+msgstr ""
 
-#: app/templates/join.html:24 app/templates/join.html:34
-msgid "Your Plex email"
-msgstr "Votre e-mail Plex"
+#: app/templates/join.html:24
+msgid "Địa chỉ e-mail Plex của bạn"
+msgstr ""
 
 #: app/templates/join.html:28 app/templates/join.html:55
 msgid "Oops!"
 msgstr "Oups !"
 
+#: app/templates/join.html:34
+msgid "Your Plex email"
+msgstr "Votre e-mail Plex"
+
+#: app/templates/join.html:42 app/templates/join.html:51
+msgid "Mã tham gia"
+msgstr ""
+
 #: app/templates/join.html:60
-msgid "Join"
-msgstr "Rejoindre"
+msgid "Tham gia"
+msgstr ""
 
 #: app/templates/join.html:62
-msgid "Don't have a Plex account, yet?"
-msgstr "Vous n’avez pas encore de compte Plex ?"
+msgid "Bạn chưa có tài khoản Plex sao?"
+msgstr ""
 
 #: app/templates/join.html:63
-msgid "Get one here."
-msgstr "Créez-en un ici."
+msgid "Đăng ký tại đây."
+msgstr ""
 
 #: app/templates/login.html:19 app/templates/login.html:47
 msgid "Đăng nhập"
 msgstr ""
 
 #: app/templates/login.html:24
-msgid "Địa chỉ e-mail"
+msgid "Địa chỉ e-mail:"
 msgstr ""
 
 #: app/templates/login.html:30
-msgid "Mật khẩu"
+msgid "Mật khẩu:"
 msgstr ""
 
 #: app/templates/login.html:42
@@ -352,6 +356,10 @@ msgstr "*Selon disponibilité"
 msgid "Check it Out"
 msgstr "Jeter un œil"
 
+#: app/templates/requests.html:71 app/templates/wizard/accept.html:23
+msgid "Next"
+msgstr "Suivant"
+
 #: app/templates/settings.html:18
 msgid "Change Server Settings"
 msgstr "Modifier les paramètres du serveur"
@@ -385,250 +393,174 @@ msgid "Verify and Confirm"
 msgstr "Vérifier et confirmer"
 
 #: app/templates/setup.html:11
-msgid "Join & Download Plex for this device"
-msgstr "Nous rejoindre et télécharger Plex pour cet appareil"
+msgid "Tham gia & tải Plex cho thiết bị này"
+msgstr ""
 
 #: app/templates/setup.html:15
 msgid ""
-"Great news! You now have access to our server's media collection. Let's "
-"make sure you know how to use it with Plex."
+"Tin vui nhé! Giờ bạn đã truy cập vào kho của chúng tôi. Hãy chắc chắn là "
+"bạn biết sử dụng nó với Plex."
 msgstr ""
-"Bonne nouvelle ! Vous avez maintenant accès à la collection de médias de "
-"notre serveur. Assurons-nous que vous savez comment l'utiliser avec Plex."
 
 #: app/templates/setup.html:17
-msgid "Planning on watching Movies on this device? Download Plex for this device."
+msgid "Muốn xem phim trên thiết bị này? Tải Plex ngay nhé."
 msgstr ""
-"Vous prévoyez de regarder des films sur cet appareil ? Téléchargez Plex "
-"pour cet appareil."
 
 #: app/templates/setup.html:20
-msgid "Download"
-msgstr "Télécharger"
+msgid "Tải xuống"
+msgstr ""
 
 #: app/templates/setup.html:28
-msgid "Skip"
-msgstr "Ignorer"
+msgid "Bỏ qua"
+msgstr ""
 
 #: app/templates/tips.html:12
-msgid "How to Use Plex?"
-msgstr "Comment utiliser Plex ?"
+msgid "Làm sao để sử dụng Plex?"
+msgstr ""
 
 #: app/templates/tips.html:15
 msgid ""
-"Congratulations on accepting the email invitation from Plex! You're now "
-"one step closer to enjoying all the amazing content on our server. "
+"Chúc mừng bạn đã chấp nhận lời mời từ Plex! Bạn đã tiến một bước gần hơn "
+"tói việc thưởng thức tất cả nội dung tuyệt vời tại kho nội dung của chúng"
+" tôi. "
 msgstr ""
-"Merci d'avoir accepté l’invitation par e-mail de Plex ! Vous n'êtes plus "
-"très loin de pouvoir profiter de tout le contenu incroyable sur notre "
-"serveur. "
 
 #: app/templates/tips.html:18
-msgid "Eh, So, What is Plex exactly??"
-msgstr "Euh, alors, qu'est-ce que Plex exactement ??"
+msgid "Plex là gì?"
+msgstr ""
 
 #: app/templates/tips.html:20
 msgid ""
-"Great question! Plex is a software that allows individuals to share their"
-" media collections with others. If you've received an invitation, it "
-"means someone wants to share their library with you. With Plex, you'll "
-"have access to all of the movies, TV shows, music, and photos that are "
-"stored on their server. Enjoy!"
+"Câu hỏi tuyệt vời! Plex là một phần mềm cho phép các cá nhân chia sẻ bộ "
+"sưu tập phương tiện của họ với người khác. Nếu bạn đã nhận được lời mời, "
+"điều đó có nghĩa là ai đó muốn chia sẻ thư viện của họ với bạn. Với Plex,"
+" bạn sẽ có quyền truy cập vào tất cả phim, chương trình TV, nhạc và ảnh "
+"được lưu trữ trên máy chủ của họ."
 msgstr ""
-"Excellente question ! Plex est un logiciel qui permet à des particuliers "
-"de partager leurs collections multimédias avec d’autres. Si vous avez "
-"reçu une invitation, cela signifie que quelqu’un veut partager sa "
-"bibliothèque avec vous. Avec Plex, vous aurez accès à tous les films, "
-"émissions de télévision, musique et photos stockés sur leur serveur. Bon "
-"Visionnage !"
 
 #: app/templates/tips.html:23
-msgid "Right, so how do I watch stuff?"
-msgstr "D’accord, alors comment je regarde quelque chose ?"
+msgid "Làm thế nào để tôi xem các nội dung?"
+msgstr ""
 
 #: app/templates/tips.html:25
 msgid ""
-"It couldn't be simpler! Plex is available on a wide variety of devices "
-"including laptops, tablets, smartphones, and TVs. All you need to do is "
-"download the Plex app on your device, sign in with your account, and "
-"you're ready to start streaming your media. It's that easy!"
+"Không thể đơn giản hơn! Plex có sẵn trên nhiều loại thiết bị bao gồm máy "
+"tính xách tay, máy tính bảng, điện thoại thông minh và TV. Tất cả những "
+"gì bạn cần làm là xuống ứng dụng Plex trên thiết bị của mình, đăng nhập "
+"bằng tài khoản của bạn và bạn đã sẵn sàng bắt đầu truyền phát nội dung "
+"của mình. Game là dễ!"
 msgstr ""
-"Rien de plus facile ! Plex est disponible sur une grande variété "
-"d'appareils, notamment les ordinateurs portables, les tablettes, les "
-"smartphones et les téléviseurs. Tout ce que vous avez à faire est de "
-"télécharger l'application Plex sur votre appareil, de vous connecter avec"
-" votre compte, et vous êtes prêt pour profiter de vos médias. C'est aussi"
-" simple que ça !"
 
 #: app/templates/tips.html:28
-msgid "I've logged in but I am overwhelmed with content!"
-msgstr "Je me suis connecté mais je suis submergé par le contenu !"
+msgid "Làm thế nào để tôi có thể đảm bảo có trải nghiệm xem tốt nhất?"
+msgstr ""
 
 #: app/templates/tips.html:30
 msgid ""
-"While Plex is a free service, they do have to generate revenue in order "
-"to continue providing the platform. One way they do this is by displaying"
-" their own content before the content of the server you are joining."
+"Theo mặc định, Plex phát tất cả nội dung ở chất lượng thấp hơn so với "
+"chất lượng gốc. Nhưng đừng lo nhé, vấn đề này giải quyết rất dễ! Bạn có "
+"thể thay đổi cài đặt để tăng chất lượng của phương tiện mà bạn đang phát "
+"trực tuyến."
 msgstr ""
-"Bien que Plex soit un service gratuit, ils doivent générer des revenus "
-"afin de continuer à maintenir la plate-forme. Une façon de le faire est "
-"d’afficher leur propre contenu avant le contenu du serveur que vous "
-"rejoignez."
 
-#: app/templates/tips.html:31
-msgid "No need to worry though, this can be easily resolved!"
-msgstr "Mais ne vous inquiétez pas, cela peut être facilement résolu !"
-
-#: app/templates/tips.html:33
-msgid "On the left-hand side of your screen, you'll see a menu. Click on the "
+#: app/templates/tips.html:32
+msgid "Tới mục "
 msgstr ""
-"Sur le côté gauche de votre écran, vous verrez un menu. Cliquez sur le "
-"bouton "
+
+#: app/templates/tips.html:32
+msgid "Cài đặt "
+msgstr ""
+
+#: app/templates/tips.html:32
+msgid ""
+"của Plex. Tùy chọn này thường nằm ở góc trên cùng bên phải, tùy thuộc vào"
+" thiết bị bạn đang sử dụng."
+msgstr ""
 
 #: app/templates/tips.html:34
-msgid "Expand"
-msgstr "Développer"
+msgid "Đi tới mục "
+msgstr ""
 
 #: app/templates/tips.html:34
-msgid "button to reveal all the different types of media you have access to."
-msgstr "pour révéler tous les différents types de médias auxquels vous avez accès."
-
-#: app/templates/tips.html:37
-msgid ""
-"To avoid seeing Plex's content first, we recommend hiding it. To do this,"
-" select all the content types you don't want (such as 'Movies and TV on "
-"Plex') and 'Unpin' them from your home screen. This way you'll only see "
-"the content that you really want to watch!"
+msgid "Chất lượng"
 msgstr ""
-"Pour éviter de voir le contenu commercial de Plex en premier, nous vous "
-"recommandons de le masquer. Pour ce faire, sélectionnez tous les types de"
-" contenu dont vous ne voulez pas (par exemple, \"Films et télévision sur "
-"Plex\") et désépinglez-les de votre écran d'accueil. Ainsi, vous ne "
-"verrez que le contenu que vous voulez vraiment regarder !"
 
-#: app/templates/tips.html:40
-msgid "Now that everything we"
-msgstr "Maintenant que tout ce dont nous"
-
-#: app/templates/tips.html:40
-msgid "don't"
-msgstr "ne voulons pas"
-
-#: app/templates/tips.html:40
-msgid "want is out of the way, we can focus on the things we "
-msgstr "est écarté, nous pouvons nous concentrer sur les choses que nous "
-
-#: app/templates/tips.html:40
-msgid "do"
-msgstr "voulons"
-
-#: app/templates/tips.html:40
-msgid " want!"
-msgstr " !"
-
-#: app/templates/tips.html:44
-msgid "How can I make sure to have the best experience?"
-msgstr "Comment puis-je m’assurer d’avoir la meilleure expérience ?"
-
-#: app/templates/tips.html:46
-msgid ""
-"By default, Plex plays all content at a lower quality. This can be a bit "
-"of a disappointment. But don't worry, it's a simple fix! You can easily "
-"change the settings to increase the quality of the media that you're "
-"streaming."
+#: app/templates/tips.html:34
+msgid "hoặc"
 msgstr ""
-"Par défaut, Plex lit tous les contenus avec une qualité inférieure. Cela "
-"peut être un peu décevant. Mais ne vous inquiétez pas, il existe une "
-"solution simple ! Vous pouvez facilement modifier les paramètres pour "
-"augmenter la qualité des médias que vous lisez."
 
-#: app/templates/tips.html:48
-msgid "Go to the Plex "
-msgstr "Sur Plex, allez dans "
-
-#: app/templates/tips.html:48
-msgid "Settings "
-msgstr "Réglages. "
-
-#: app/templates/tips.html:48
-msgid ""
-"page. This is usually in the top right hand corner, depending on the "
-"device you are on."
-msgstr ""
-"Cela se trouve généralement en haut a droite, selon l’appareil sur lequel"
-" vous vous trouvez."
-
-#: app/templates/tips.html:50
-msgid "Go to the "
-msgstr "Accédez aux paramètres de "
-
-#: app/templates/tips.html:50
+#: app/templates/tips.html:35
 msgid "Quality"
 msgstr "Qualité"
 
-#: app/templates/tips.html:50
-msgid "or"
-msgstr "ou"
-
-#: app/templates/tips.html:51
-msgid "Video"
-msgstr "paramètres"
-
-#: app/templates/tips.html:51
+#: app/templates/tips.html:35
 msgid "settings."
 msgstr "Vidéo."
 
-#: app/templates/tips.html:53 app/templates/tips.html:57
-msgid "Set the "
-msgstr "Changez "
+#: app/templates/tips.html:37 app/templates/tips.html:41
+msgid "Chỉnh "
+msgstr ""
 
-#: app/templates/tips.html:53
+#: app/templates/tips.html:37
 msgid "Remote/Internet Streaming"
 msgstr "Diffusion via Internet/à distance"
 
-#: app/templates/tips.html:53 app/templates/tips.html:57
-msgid "to "
-msgstr "pour "
+#: app/templates/tips.html:37 app/templates/tips.html:41
+msgid "sang "
+msgstr ""
 
-#: app/templates/tips.html:54 app/templates/tips.html:58
+#: app/templates/tips.html:38 app/templates/tips.html:42
 msgid "Maximum/Original"
 msgstr "Maximale/Originale"
 
-#: app/templates/tips.html:57
+#: app/templates/tips.html:41
 msgid "Local Streaming "
 msgstr "Diffusion à domicile "
 
-#: app/templates/tips.html:61
+#: app/templates/tips.html:45
 msgid ""
-"And there you have it! In case you encounter buffering issues, remember "
-"that you can always adjust the playback quality just like you do in "
-"YouTube. This way you can get the best streaming experience possible."
+"Ở các thiết bị có thêm phụ mục video, và mục liên quan tới mạng di động "
+"(3G/4G) hãy cứ chọn chất lượng gốc (Original) hoặc cao nhất (Maximum) để "
+"được trải nghiệm nghe nhìn tốt nhất."
 msgstr ""
-"Et voilà, c'est fait ! Si vous rencontrez des problèmes de chargement, "
-"n'oubliez pas que vous pouvez toujours régler la qualité de lecture comme"
-" vous le faites sur YouTube. Vous obtiendrez ainsi la meilleure "
-"expérience de streaming possible."
 
 #: app/templates/welcome.html:12
-#, python-format
-msgid "You've been invited to join the %(name)s server!"
-msgstr "Vous avez été invité à rejoindre le serveur %(name)s !"
+msgid "Bạn đã được mời tham gia vào máy chủ của %(name)!"
+msgstr ""
 
 #: app/templates/welcome.html:14
 msgid ""
-"To join our Plex server, create a Plex account! Once you're done, come "
-"back here!"
+"Để truy cập vào kho chúng tôi, hãy tạo tài khoản Plex! Khi bạn đã hoàn "
+"thành bước này thì quay lại đây nhé!"
 msgstr ""
-"Pour rejoindre notre serveur Plex, créez un compte Plex ! Une fois que "
-"vous avez terminé, revenez ici !"
 
 #: app/templates/welcome.html:18
-msgid "Create Plex Account"
-msgstr "Créer un compte Plex"
+msgid "Tạo tài khoản Plex"
+msgstr ""
 
 #: app/templates/welcome.html:22
-msgid "I have a Plex Account"
-msgstr "J'ai déjà un compte Plex"
+msgid "Tôi đã có tài khoản Plex"
+msgstr ""
+
+#: app/templates/wizard/accept.html:2
+msgid "Accept our invitation"
+msgstr "Accepter notre invitation"
+
+#: app/templates/wizard/accept.html:6
+msgid "We have sent an invitation to your Plex Account! Almost there!"
+msgstr "Nous avons envoyé une invitation à votre compte Plex ! On y est presque !"
+
+#: app/templates/wizard/accept.html:8
+msgid ""
+"Click the button below to be taken to Plex, here you will see an "
+"invitation from us."
+msgstr ""
+"Cliquez sur le bouton ci-dessous pour accéder à Plex, vous y trouverez "
+"une invitation de notre part."
+
+#: app/templates/wizard/accept.html:14
+msgid "Accept"
+msgstr "Accepter"
 
 #~ msgid "Login"
 #~ msgstr "Connexion"
@@ -638,4 +570,364 @@ msgstr "J'ai déjà un compte Plex"
 
 #~ msgid "Sign in"
 #~ msgstr "Se connecter"
+
+#~ msgid "Permission denied."
+#~ msgstr "Permission refusée."
+
+#~ msgid "You are attempting to do something you shouldn't be doing..."
+#~ msgstr "Vous tentez de faire quelque chose que vous ne devriez pas faire..."
+
+#~ msgid "Something's missing."
+#~ msgstr "Il manque quelque chose."
+
+#~ msgid "Sorry, we can't find that page. It doesn't seem to exist!"
+#~ msgstr ""
+#~ "Désolé, nous ne trouvons pas cette "
+#~ "page. On dirait qu'elle n'existe pas "
+#~ "!"
+
+#~ msgid "Internal Server Error."
+#~ msgstr "Erreur interne du serveur."
+
+#~ msgid " Something has gone wrong. Please try again later."
+#~ msgstr " Quelque chose s'est mal passé. Veuillez réessayer plus tard."
+
+#~ msgid "Invite user"
+#~ msgstr "Inviter un utilisateur"
+
+#~ msgid "Expiration"
+#~ msgstr "Expiration"
+
+#~ msgid "1 day"
+#~ msgstr "1 jour"
+
+#~ msgid "1 week"
+#~ msgstr "1 semaine"
+
+#~ msgid "1 month"
+#~ msgstr "1 mois"
+
+#~ msgid "Unlimited Usages"
+#~ msgstr "Utilisations illimitées"
+
+#~ msgid "Create Invitation"
+#~ msgstr "Créer une invitation"
+
+#~ msgid "Server Settings"
+#~ msgstr "Paramètres du serveur"
+
+#~ msgid "Successfully generated an Invitation!"
+#~ msgstr "Invitation générée avec succès !"
+
+#~ msgid "Great!"
+#~ msgstr "Super !"
+
+#~ msgid "Link has been copied to clipboard!"
+#~ msgstr "Le lien a été copié dans le presse-papiers !"
+
+#~ msgid "Back"
+#~ msgstr "Retour"
+
+#~ msgid "Share"
+#~ msgstr "Partager"
+
+#~ msgid "Invite Code"
+#~ msgstr "Code d'invitation"
+
+#~ msgid "Used"
+#~ msgstr "Utilisé"
+
+#~ msgid "Used At"
+#~ msgstr "Utilisation"
+
+#~ msgid "Created"
+#~ msgstr "Création"
+
+#~ msgid "User"
+#~ msgstr "Utilisateur"
+
+#~ msgid "Expires"
+#~ msgstr "Expiration"
+
+#~ msgid "Unlimited"
+#~ msgstr "Illimité"
+
+#~ msgid "Copy"
+#~ msgstr "Copier"
+
+#~ msgid "Delete"
+#~ msgstr "Supprimer"
+
+#~ msgid "Great! Now, let's get you invited!"
+#~ msgstr "Super ! Maintenant, on va vous inviter !"
+
+#~ msgid "Join the Plex Server"
+#~ msgstr "Rejoindre le serveur Plex"
+
+#~ msgid "Join"
+#~ msgstr "Rejoindre"
+
+#~ msgid "Don't have a Plex account, yet?"
+#~ msgstr "Vous n’avez pas encore de compte Plex ?"
+
+#~ msgid "Get one here."
+#~ msgstr "Créez-en un ici."
+
+#~ msgid "Địa chỉ e-mail"
+#~ msgstr ""
+
+#~ msgid "Mật khẩu"
+#~ msgstr ""
+
+#~ msgid "Join & Download Plex for this device"
+#~ msgstr "Nous rejoindre et télécharger Plex pour cet appareil"
+
+#~ msgid ""
+#~ "Great news! You now have access to"
+#~ " our server's media collection. Let's "
+#~ "make sure you know how to use "
+#~ "it with Plex."
+#~ msgstr ""
+#~ "Bonne nouvelle ! Vous avez maintenant"
+#~ " accès à la collection de médias "
+#~ "de notre serveur. Assurons-nous que "
+#~ "vous savez comment l'utiliser avec Plex."
+
+#~ msgid ""
+#~ "Planning on watching Movies on this "
+#~ "device? Download Plex for this device."
+#~ msgstr ""
+#~ "Vous prévoyez de regarder des films "
+#~ "sur cet appareil ? Téléchargez Plex "
+#~ "pour cet appareil."
+
+#~ msgid "Download"
+#~ msgstr "Télécharger"
+
+#~ msgid "Skip"
+#~ msgstr "Ignorer"
+
+#~ msgid "How to Use Plex?"
+#~ msgstr "Comment utiliser Plex ?"
+
+#~ msgid ""
+#~ "Congratulations on accepting the email "
+#~ "invitation from Plex! You're now one "
+#~ "step closer to enjoying all the "
+#~ "amazing content on our server. "
+#~ msgstr ""
+#~ "Merci d'avoir accepté l’invitation par "
+#~ "e-mail de Plex ! Vous n'êtes plus"
+#~ " très loin de pouvoir profiter de "
+#~ "tout le contenu incroyable sur notre "
+#~ "serveur. "
+
+#~ msgid "Eh, So, What is Plex exactly??"
+#~ msgstr "Euh, alors, qu'est-ce que Plex exactement ??"
+
+#~ msgid ""
+#~ "Great question! Plex is a software "
+#~ "that allows individuals to share their"
+#~ " media collections with others. If "
+#~ "you've received an invitation, it means"
+#~ " someone wants to share their library"
+#~ " with you. With Plex, you'll have "
+#~ "access to all of the movies, TV"
+#~ " shows, music, and photos that are"
+#~ " stored on their server. Enjoy!"
+#~ msgstr ""
+#~ "Excellente question ! Plex est un "
+#~ "logiciel qui permet à des particuliers"
+#~ " de partager leurs collections multimédias"
+#~ " avec d’autres. Si vous avez reçu "
+#~ "une invitation, cela signifie que "
+#~ "quelqu’un veut partager sa bibliothèque "
+#~ "avec vous. Avec Plex, vous aurez "
+#~ "accès à tous les films, émissions "
+#~ "de télévision, musique et photos stockés"
+#~ " sur leur serveur. Bon Visionnage !"
+
+#~ msgid "Right, so how do I watch stuff?"
+#~ msgstr "D’accord, alors comment je regarde quelque chose ?"
+
+#~ msgid ""
+#~ "It couldn't be simpler! Plex is "
+#~ "available on a wide variety of "
+#~ "devices including laptops, tablets, "
+#~ "smartphones, and TVs. All you need "
+#~ "to do is download the Plex app "
+#~ "on your device, sign in with your"
+#~ " account, and you're ready to start"
+#~ " streaming your media. It's that "
+#~ "easy!"
+#~ msgstr ""
+#~ "Rien de plus facile ! Plex est "
+#~ "disponible sur une grande variété "
+#~ "d'appareils, notamment les ordinateurs "
+#~ "portables, les tablettes, les smartphones "
+#~ "et les téléviseurs. Tout ce que "
+#~ "vous avez à faire est de "
+#~ "télécharger l'application Plex sur votre "
+#~ "appareil, de vous connecter avec votre"
+#~ " compte, et vous êtes prêt pour "
+#~ "profiter de vos médias. C'est aussi "
+#~ "simple que ça !"
+
+#~ msgid "I've logged in but I am overwhelmed with content!"
+#~ msgstr "Je me suis connecté mais je suis submergé par le contenu !"
+
+#~ msgid ""
+#~ "While Plex is a free service, they"
+#~ " do have to generate revenue in "
+#~ "order to continue providing the "
+#~ "platform. One way they do this is"
+#~ " by displaying their own content "
+#~ "before the content of the server "
+#~ "you are joining."
+#~ msgstr ""
+#~ "Bien que Plex soit un service "
+#~ "gratuit, ils doivent générer des revenus"
+#~ " afin de continuer à maintenir la "
+#~ "plate-forme. Une façon de le faire"
+#~ " est d’afficher leur propre contenu "
+#~ "avant le contenu du serveur que "
+#~ "vous rejoignez."
+
+#~ msgid "No need to worry though, this can be easily resolved!"
+#~ msgstr "Mais ne vous inquiétez pas, cela peut être facilement résolu !"
+
+#~ msgid "On the left-hand side of your screen, you'll see a menu. Click on the "
+#~ msgstr ""
+#~ "Sur le côté gauche de votre écran,"
+#~ " vous verrez un menu. Cliquez sur "
+#~ "le bouton "
+
+#~ msgid "Expand"
+#~ msgstr "Développer"
+
+#~ msgid "button to reveal all the different types of media you have access to."
+#~ msgstr ""
+#~ "pour révéler tous les différents types"
+#~ " de médias auxquels vous avez accès."
+
+#~ msgid ""
+#~ "To avoid seeing Plex's content first,"
+#~ " we recommend hiding it. To do "
+#~ "this, select all the content types "
+#~ "you don't want (such as 'Movies "
+#~ "and TV on Plex') and 'Unpin' them"
+#~ " from your home screen. This way "
+#~ "you'll only see the content that "
+#~ "you really want to watch!"
+#~ msgstr ""
+#~ "Pour éviter de voir le contenu "
+#~ "commercial de Plex en premier, nous "
+#~ "vous recommandons de le masquer. Pour"
+#~ " ce faire, sélectionnez tous les "
+#~ "types de contenu dont vous ne "
+#~ "voulez pas (par exemple, \"Films et "
+#~ "télévision sur Plex\") et désépinglez-"
+#~ "les de votre écran d'accueil. Ainsi, "
+#~ "vous ne verrez que le contenu que"
+#~ " vous voulez vraiment regarder !"
+
+#~ msgid "Now that everything we"
+#~ msgstr "Maintenant que tout ce dont nous"
+
+#~ msgid "don't"
+#~ msgstr "ne voulons pas"
+
+#~ msgid "want is out of the way, we can focus on the things we "
+#~ msgstr "est écarté, nous pouvons nous concentrer sur les choses que nous "
+
+#~ msgid "do"
+#~ msgstr "voulons"
+
+#~ msgid " want!"
+#~ msgstr " !"
+
+#~ msgid "How can I make sure to have the best experience?"
+#~ msgstr "Comment puis-je m’assurer d’avoir la meilleure expérience ?"
+
+#~ msgid ""
+#~ "By default, Plex plays all content "
+#~ "at a lower quality. This can be"
+#~ " a bit of a disappointment. But "
+#~ "don't worry, it's a simple fix! "
+#~ "You can easily change the settings "
+#~ "to increase the quality of the "
+#~ "media that you're streaming."
+#~ msgstr ""
+#~ "Par défaut, Plex lit tous les "
+#~ "contenus avec une qualité inférieure. "
+#~ "Cela peut être un peu décevant. "
+#~ "Mais ne vous inquiétez pas, il "
+#~ "existe une solution simple ! Vous "
+#~ "pouvez facilement modifier les paramètres "
+#~ "pour augmenter la qualité des médias "
+#~ "que vous lisez."
+
+#~ msgid "Go to the Plex "
+#~ msgstr "Sur Plex, allez dans "
+
+#~ msgid "Settings "
+#~ msgstr "Réglages. "
+
+#~ msgid ""
+#~ "page. This is usually in the top"
+#~ " right hand corner, depending on the"
+#~ " device you are on."
+#~ msgstr ""
+#~ "Cela se trouve généralement en haut "
+#~ "a droite, selon l’appareil sur lequel"
+#~ " vous vous trouvez."
+
+#~ msgid "Go to the "
+#~ msgstr "Accédez aux paramètres de "
+
+#~ msgid "or"
+#~ msgstr "ou"
+
+#~ msgid "Video"
+#~ msgstr "paramètres"
+
+#~ msgid "Set the "
+#~ msgstr "Changez "
+
+#~ msgid "to "
+#~ msgstr "pour "
+
+#~ msgid ""
+#~ "And there you have it! In case "
+#~ "you encounter buffering issues, remember "
+#~ "that you can always adjust the "
+#~ "playback quality just like you do "
+#~ "in YouTube. This way you can get"
+#~ " the best streaming experience possible."
+#~ msgstr ""
+#~ "Et voilà, c'est fait ! Si vous "
+#~ "rencontrez des problèmes de chargement, "
+#~ "n'oubliez pas que vous pouvez toujours"
+#~ " régler la qualité de lecture comme"
+#~ " vous le faites sur YouTube. Vous "
+#~ "obtiendrez ainsi la meilleure expérience "
+#~ "de streaming possible."
+
+#~ msgid "You've been invited to join the %(name)s server!"
+#~ msgstr "Vous avez été invité à rejoindre le serveur %(name)s !"
+
+#~ msgid ""
+#~ "To join our Plex server, create a"
+#~ " Plex account! Once you're done, come"
+#~ " back here!"
+#~ msgstr ""
+#~ "Pour rejoindre notre serveur Plex, créez"
+#~ " un compte Plex ! Une fois que"
+#~ " vous avez terminé, revenez ici !"
+
+#~ msgid "Create Plex Account"
+#~ msgstr "Créer un compte Plex"
+
+#~ msgid "I have a Plex Account"
+#~ msgstr "J'ai déjà un compte Plex"
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-01-26 11:13+0000\n"
+"POT-Creation-Date: 2023-01-26 13:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -62,54 +62,53 @@ msgid "Something went wrong. Please try again or contact an administrator."
 msgstr ""
 
 #: app/templates/401.html:20
-msgid "Permission denied."
+msgid "Truy cập bị từ chối."
 msgstr ""
 
 #: app/templates/401.html:23
-msgid "You are attempting to do something you shouldn't be doing..."
+msgid "Bạn không nên ở đây.."
 msgstr ""
 
 #: app/templates/404.html:19
-msgid "Something's missing."
+msgid "Có gì đó thiếu thiếu."
 msgstr ""
 
 #: app/templates/404.html:21
-msgid "Sorry, we can't find that page. It doesn't seem to exist!"
+msgid "Xin lỗi, mục này không tồn tại!"
 msgstr ""
 
 #: app/templates/500.html:19
-msgid "Internal Server Error."
+msgid "Lỗi hệ thống."
 msgstr ""
 
 #: app/templates/500.html:21
-msgid " Something has gone wrong. Please try again later."
+msgid " Có gì đó sai sai. Vui lòng thử lại sau."
 msgstr ""
 
 #: app/templates/accept.html:4
 msgid "Accept Invitation"
 msgstr ""
 
-#: app/templates/accept.html:11 app/templates/wizard/accept.html:2
-msgid "Accept our invitation"
+#: app/templates/accept.html:11
+msgid "Chấp nhận lời mời của chúng tôi"
 msgstr ""
 
-#: app/templates/accept.html:15 app/templates/wizard/accept.html:6
-msgid "We have sent an invitation to your Plex Account! Almost there!"
+#: app/templates/accept.html:15
+msgid "Chúng tôi đã gửi lời mời vào kho tới tài khoản Plex của bạn! Sắp xong rồi!"
 msgstr ""
 
-#: app/templates/accept.html:17 app/templates/wizard/accept.html:8
+#: app/templates/accept.html:17
 msgid ""
-"Click the button below to be taken to Plex, here you will see an "
-"invitation from us."
+"Bấm nút phía dưới để được đưa tới Plex, tại đây bạn sẽ thấy lời mời từ "
+"chúng tôi."
 msgstr ""
 
-#: app/templates/accept.html:23 app/templates/wizard/accept.html:14
-msgid "Accept"
+#: app/templates/accept.html:23
+msgid "Chấp nhận"
 msgstr ""
 
-#: app/templates/accept.html:31 app/templates/requests.html:71
-#: app/templates/wizard/accept.html:23
-msgid "Next"
+#: app/templates/accept.html:31
+msgid "Tiếp theo"
 msgstr ""
 
 #: app/templates/invite.html:4
@@ -125,7 +124,7 @@ msgid "Update available. Click here."
 msgstr ""
 
 #: app/templates/invite.html:23
-msgid "Invite user"
+msgid "Mời thành viên"
 msgstr ""
 
 #: app/templates/invite.html:29
@@ -147,120 +146,127 @@ msgid "(optional)"
 msgstr ""
 
 #: app/templates/invite.html:45
-msgid "Expiration"
+msgid "Hạn hội viên"
 msgstr ""
 
 #: app/templates/invite.html:48
-msgid "1 day"
+msgid "1 ngày"
 msgstr ""
 
 #: app/templates/invite.html:49
-msgid "1 week"
+msgid "1 tuần"
 msgstr ""
 
 #: app/templates/invite.html:50
-msgid "1 month"
+msgid "1 tháng"
 msgstr ""
 
-#: app/templates/invite.html:51 app/templates/invite.html:168
-msgid "Never"
+#: app/templates/invite.html:51 app/templates/invite.html:135
+msgid "Vô hạn"
 msgstr ""
 
 #: app/templates/invite.html:58
-msgid "Unlimited Usages"
+msgid "Lần sử dụng vô hạn"
 msgstr ""
 
 #: app/templates/invite.html:61
-msgid "Create Invitation"
+msgid "Tạo lời mời"
 msgstr ""
 
 #: app/templates/invite.html:75
-msgid "Server Settings"
+msgid "Tùy chỉnh máy chủ"
 msgstr ""
 
 #: app/templates/invite.html:83
-msgid "Successfully generated an Invitation!"
+msgid "Đã tạo lời mời thành công!"
 msgstr ""
 
 #: app/templates/invite.html:88
-msgid "Great!"
+msgid "Tuyệt!"
 msgstr ""
 
 #: app/templates/invite.html:88
-msgid "Link has been copied to clipboard!"
+msgid "Link đã được sao chép vào bộ nhớ đệm!"
 msgstr ""
 
 #: app/templates/invite.html:96
-msgid "Back"
+msgid "Quay lại"
 msgstr ""
 
 #: app/templates/invite.html:101
-msgid "Share"
+msgid "Chia sẻ"
 msgstr ""
 
-#: app/templates/invite.html:117 app/templates/join.html:42
-#: app/templates/join.html:51
-msgid "Invite Code"
+#: app/templates/invite.html:117
+msgid "Mã lời mời"
 msgstr ""
 
 #: app/templates/invite.html:120
-msgid "Used"
+msgid "Đã sử dụng"
 msgstr ""
 
 #: app/templates/invite.html:123
-msgid "Used At"
+msgid "Đã sử dụng vào"
 msgstr ""
 
 #: app/templates/invite.html:126
-msgid "Created"
+msgid "Đã tạo"
 msgstr ""
 
 #: app/templates/invite.html:129
-msgid "User"
+msgid "Thành viên"
 msgstr ""
 
 #: app/templates/invite.html:132
-msgid "Expires"
+msgid "Hết hạn"
 msgstr ""
 
-#: app/templates/invite.html:135
-msgid "Unlimited"
+#: app/templates/invite.html:168
+msgid "Never"
 msgstr ""
 
 #: app/templates/invite.html:172
-msgid "Copy"
+msgid "Sao chép"
 msgstr ""
 
 #: app/templates/invite.html:174
-msgid "Delete"
+msgid "Xóa"
 msgstr ""
 
 #: app/templates/join.html:12
-msgid "Great! Now, let's get you invited!"
+msgid "Đã tới lúc tham gia vào kho phim rồi!"
 msgstr ""
 
 #: app/templates/join.html:18
-msgid "Join the Plex Server"
+msgid "Tham gia kho phim"
 msgstr ""
 
-#: app/templates/join.html:24 app/templates/join.html:34
-msgid "Your Plex email"
+#: app/templates/join.html:24
+msgid "Địa chỉ e-mail Plex của bạn"
 msgstr ""
 
 #: app/templates/join.html:28 app/templates/join.html:55
 msgid "Oops!"
 msgstr ""
 
+#: app/templates/join.html:34
+msgid "Your Plex email"
+msgstr ""
+
+#: app/templates/join.html:42 app/templates/join.html:51
+msgid "Mã tham gia"
+msgstr ""
+
 #: app/templates/join.html:60
-msgid "Join"
+msgid "Tham gia"
 msgstr ""
 
 #: app/templates/join.html:62
-msgid "Don't have a Plex account, yet?"
+msgid "Bạn chưa có tài khoản Plex sao?"
 msgstr ""
 
 #: app/templates/join.html:63
-msgid "Get one here."
+msgid "Đăng ký tại đây."
 msgstr ""
 
 #: app/templates/login.html:19 app/templates/login.html:47
@@ -268,11 +274,11 @@ msgid "Đăng nhập"
 msgstr ""
 
 #: app/templates/login.html:24
-msgid "Địa chỉ e-mail"
+msgid "Địa chỉ e-mail:"
 msgstr ""
 
 #: app/templates/login.html:30
-msgid "Mật khẩu"
+msgid "Mật khẩu:"
 msgstr ""
 
 #: app/templates/login.html:42
@@ -335,6 +341,10 @@ msgstr ""
 msgid "Check it Out"
 msgstr ""
 
+#: app/templates/requests.html:71 app/templates/wizard/accept.html:23
+msgid "Next"
+msgstr ""
+
 #: app/templates/settings.html:18
 msgid "Change Server Settings"
 msgstr ""
@@ -368,206 +378,170 @@ msgid "Verify and Confirm"
 msgstr ""
 
 #: app/templates/setup.html:11
-msgid "Join & Download Plex for this device"
+msgid "Tham gia & tải Plex cho thiết bị này"
 msgstr ""
 
 #: app/templates/setup.html:15
 msgid ""
-"Great news! You now have access to our server's media collection. Let's "
-"make sure you know how to use it with Plex."
+"Tin vui nhé! Giờ bạn đã truy cập vào kho của chúng tôi. Hãy chắc chắn là "
+"bạn biết sử dụng nó với Plex."
 msgstr ""
 
 #: app/templates/setup.html:17
-msgid "Planning on watching Movies on this device? Download Plex for this device."
+msgid "Muốn xem phim trên thiết bị này? Tải Plex ngay nhé."
 msgstr ""
 
 #: app/templates/setup.html:20
-msgid "Download"
+msgid "Tải xuống"
 msgstr ""
 
 #: app/templates/setup.html:28
-msgid "Skip"
+msgid "Bỏ qua"
 msgstr ""
 
 #: app/templates/tips.html:12
-msgid "How to Use Plex?"
+msgid "Làm sao để sử dụng Plex?"
 msgstr ""
 
 #: app/templates/tips.html:15
 msgid ""
-"Congratulations on accepting the email invitation from Plex! You're now "
-"one step closer to enjoying all the amazing content on our server. "
+"Chúc mừng bạn đã chấp nhận lời mời từ Plex! Bạn đã tiến một bước gần hơn "
+"tói việc thưởng thức tất cả nội dung tuyệt vời tại kho nội dung của chúng"
+" tôi. "
 msgstr ""
 
 #: app/templates/tips.html:18
-msgid "Eh, So, What is Plex exactly??"
+msgid "Plex là gì?"
 msgstr ""
 
 #: app/templates/tips.html:20
 msgid ""
-"Great question! Plex is a software that allows individuals to share their"
-" media collections with others. If you've received an invitation, it "
-"means someone wants to share their library with you. With Plex, you'll "
-"have access to all of the movies, TV shows, music, and photos that are "
-"stored on their server. Enjoy!"
+"Câu hỏi tuyệt vời! Plex là một phần mềm cho phép các cá nhân chia sẻ bộ "
+"sưu tập phương tiện của họ với người khác. Nếu bạn đã nhận được lời mời, "
+"điều đó có nghĩa là ai đó muốn chia sẻ thư viện của họ với bạn. Với Plex,"
+" bạn sẽ có quyền truy cập vào tất cả phim, chương trình TV, nhạc và ảnh "
+"được lưu trữ trên máy chủ của họ."
 msgstr ""
 
 #: app/templates/tips.html:23
-msgid "Right, so how do I watch stuff?"
+msgid "Làm thế nào để tôi xem các nội dung?"
 msgstr ""
 
 #: app/templates/tips.html:25
 msgid ""
-"It couldn't be simpler! Plex is available on a wide variety of devices "
-"including laptops, tablets, smartphones, and TVs. All you need to do is "
-"download the Plex app on your device, sign in with your account, and "
-"you're ready to start streaming your media. It's that easy!"
+"Không thể đơn giản hơn! Plex có sẵn trên nhiều loại thiết bị bao gồm máy "
+"tính xách tay, máy tính bảng, điện thoại thông minh và TV. Tất cả những "
+"gì bạn cần làm là xuống ứng dụng Plex trên thiết bị của mình, đăng nhập "
+"bằng tài khoản của bạn và bạn đã sẵn sàng bắt đầu truyền phát nội dung "
+"của mình. Game là dễ!"
 msgstr ""
 
 #: app/templates/tips.html:28
-msgid "I've logged in but I am overwhelmed with content!"
+msgid "Làm thế nào để tôi có thể đảm bảo có trải nghiệm xem tốt nhất?"
 msgstr ""
 
 #: app/templates/tips.html:30
 msgid ""
-"While Plex is a free service, they do have to generate revenue in order "
-"to continue providing the platform. One way they do this is by displaying"
-" their own content before the content of the server you are joining."
+"Theo mặc định, Plex phát tất cả nội dung ở chất lượng thấp hơn so với "
+"chất lượng gốc. Nhưng đừng lo nhé, vấn đề này giải quyết rất dễ! Bạn có "
+"thể thay đổi cài đặt để tăng chất lượng của phương tiện mà bạn đang phát "
+"trực tuyến."
 msgstr ""
 
-#: app/templates/tips.html:31
-msgid "No need to worry though, this can be easily resolved!"
+#: app/templates/tips.html:32
+msgid "Tới mục "
 msgstr ""
 
-#: app/templates/tips.html:33
-msgid "On the left-hand side of your screen, you'll see a menu. Click on the "
+#: app/templates/tips.html:32
+msgid "Cài đặt "
+msgstr ""
+
+#: app/templates/tips.html:32
+msgid ""
+"của Plex. Tùy chọn này thường nằm ở góc trên cùng bên phải, tùy thuộc vào"
+" thiết bị bạn đang sử dụng."
 msgstr ""
 
 #: app/templates/tips.html:34
-msgid "Expand"
+msgid "Đi tới mục "
 msgstr ""
 
 #: app/templates/tips.html:34
-msgid "button to reveal all the different types of media you have access to."
+msgid "Chất lượng"
 msgstr ""
 
-#: app/templates/tips.html:37
-msgid ""
-"To avoid seeing Plex's content first, we recommend hiding it. To do this,"
-" select all the content types you don't want (such as 'Movies and TV on "
-"Plex') and 'Unpin' them from your home screen. This way you'll only see "
-"the content that you really want to watch!"
+#: app/templates/tips.html:34
+msgid "hoặc"
 msgstr ""
 
-#: app/templates/tips.html:40
-msgid "Now that everything we"
-msgstr ""
-
-#: app/templates/tips.html:40
-msgid "don't"
-msgstr ""
-
-#: app/templates/tips.html:40
-msgid "want is out of the way, we can focus on the things we "
-msgstr ""
-
-#: app/templates/tips.html:40
-msgid "do"
-msgstr ""
-
-#: app/templates/tips.html:40
-msgid " want!"
-msgstr ""
-
-#: app/templates/tips.html:44
-msgid "How can I make sure to have the best experience?"
-msgstr ""
-
-#: app/templates/tips.html:46
-msgid ""
-"By default, Plex plays all content at a lower quality. This can be a bit "
-"of a disappointment. But don't worry, it's a simple fix! You can easily "
-"change the settings to increase the quality of the media that you're "
-"streaming."
-msgstr ""
-
-#: app/templates/tips.html:48
-msgid "Go to the Plex "
-msgstr ""
-
-#: app/templates/tips.html:48
-msgid "Settings "
-msgstr ""
-
-#: app/templates/tips.html:48
-msgid ""
-"page. This is usually in the top right hand corner, depending on the "
-"device you are on."
-msgstr ""
-
-#: app/templates/tips.html:50
-msgid "Go to the "
-msgstr ""
-
-#: app/templates/tips.html:50
+#: app/templates/tips.html:35
 msgid "Quality"
 msgstr ""
 
-#: app/templates/tips.html:50
-msgid "or"
-msgstr ""
-
-#: app/templates/tips.html:51
-msgid "Video"
-msgstr ""
-
-#: app/templates/tips.html:51
+#: app/templates/tips.html:35
 msgid "settings."
 msgstr ""
 
-#: app/templates/tips.html:53 app/templates/tips.html:57
-msgid "Set the "
+#: app/templates/tips.html:37 app/templates/tips.html:41
+msgid "Chỉnh "
 msgstr ""
 
-#: app/templates/tips.html:53
+#: app/templates/tips.html:37
 msgid "Remote/Internet Streaming"
 msgstr ""
 
-#: app/templates/tips.html:53 app/templates/tips.html:57
-msgid "to "
+#: app/templates/tips.html:37 app/templates/tips.html:41
+msgid "sang "
 msgstr ""
 
-#: app/templates/tips.html:54 app/templates/tips.html:58
+#: app/templates/tips.html:38 app/templates/tips.html:42
 msgid "Maximum/Original"
 msgstr ""
 
-#: app/templates/tips.html:57
+#: app/templates/tips.html:41
 msgid "Local Streaming "
 msgstr ""
 
-#: app/templates/tips.html:61
+#: app/templates/tips.html:45
 msgid ""
-"And there you have it! In case you encounter buffering issues, remember "
-"that you can always adjust the playback quality just like you do in "
-"YouTube. This way you can get the best streaming experience possible."
+"Ở các thiết bị có thêm phụ mục video, và mục liên quan tới mạng di động "
+"(3G/4G) hãy cứ chọn chất lượng gốc (Original) hoặc cao nhất (Maximum) để "
+"được trải nghiệm nghe nhìn tốt nhất."
 msgstr ""
 
 #: app/templates/welcome.html:12
-#, python-format
-msgid "You've been invited to join the %(name)s server!"
+msgid "Bạn đã được mời tham gia vào máy chủ của %(name)!"
 msgstr ""
 
 #: app/templates/welcome.html:14
 msgid ""
-"To join our Plex server, create a Plex account! Once you're done, come "
-"back here!"
+"Để truy cập vào kho chúng tôi, hãy tạo tài khoản Plex! Khi bạn đã hoàn "
+"thành bước này thì quay lại đây nhé!"
 msgstr ""
 
 #: app/templates/welcome.html:18
-msgid "Create Plex Account"
+msgid "Tạo tài khoản Plex"
 msgstr ""
 
 #: app/templates/welcome.html:22
-msgid "I have a Plex Account"
+msgid "Tôi đã có tài khoản Plex"
+msgstr ""
+
+#: app/templates/wizard/accept.html:2
+msgid "Accept our invitation"
+msgstr ""
+
+#: app/templates/wizard/accept.html:6
+msgid "We have sent an invitation to your Plex Account! Almost there!"
+msgstr ""
+
+#: app/templates/wizard/accept.html:8
+msgid ""
+"Click the button below to be taken to Plex, here you will see an "
+"invitation from us."
+msgstr ""
+
+#: app/templates/wizard/accept.html:14
+msgid "Accept"
 msgstr ""
 
