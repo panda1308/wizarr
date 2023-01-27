@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-01-26 13:05+0000\n"
+"POT-Creation-Date: 2023-01-27 14:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -90,25 +90,25 @@ msgid "Accept Invitation"
 msgstr ""
 
 #: app/templates/accept.html:11
-msgid "Chấp nhận lời mời của chúng tôi"
+msgid "Nhận lời mời truy cập 3F's Cinebox"
 msgstr ""
 
 #: app/templates/accept.html:15
-msgid "Chúng tôi đã gửi lời mời vào kho tới tài khoản Plex của bạn! Sắp xong rồi!"
+msgid "Chúng tôi đã gửi lời mời vào kho tới tài khoản Plex của bạn!"
 msgstr ""
 
 #: app/templates/accept.html:17
 msgid ""
-"Bấm nút phía dưới để được đưa tới Plex, tại đây bạn sẽ thấy lời mời từ "
-"chúng tôi."
+"Bấm nút phía dưới để tới Plex, và bấm vào dấu tích để chấp nhận lời mời "
+"(như ảnh dưới)."
 msgstr ""
 
 #: app/templates/accept.html:23
-msgid "Chấp nhận"
+msgid "CHẤP NHẬN LỜI MỜI"
 msgstr ""
 
 #: app/templates/accept.html:31
-msgid "Tiếp theo"
+msgid "Bước kế tiếp"
 msgstr ""
 
 #: app/templates/invite.html:4
@@ -166,7 +166,7 @@ msgid "Vô hạn"
 msgstr ""
 
 #: app/templates/invite.html:58
-msgid "Lần sử dụng vô hạn"
+msgid "Không giới hạn lần sử dụng"
 msgstr ""
 
 #: app/templates/invite.html:61
@@ -382,21 +382,19 @@ msgid "Tham gia & tải Plex cho thiết bị này"
 msgstr ""
 
 #: app/templates/setup.html:15
-msgid ""
-"Tin vui nhé! Giờ bạn đã truy cập vào kho của chúng tôi. Hãy chắc chắn là "
-"bạn biết sử dụng nó với Plex."
+msgid "Chúc mừng! Giờ bạn đã truy cập được vào kho của chúng tôi."
 msgstr ""
 
 #: app/templates/setup.html:17
-msgid "Muốn xem phim trên thiết bị này? Tải Plex ngay nhé."
+msgid " Hãy tải Plex để xem kho nội dung ngay thôi."
 msgstr ""
 
 #: app/templates/setup.html:20
-msgid "Tải xuống"
+msgid "TẢI PLEX"
 msgstr ""
 
 #: app/templates/setup.html:28
-msgid "Bỏ qua"
+msgid "Hướng dẫn cài đặt"
 msgstr ""
 
 #: app/templates/tips.html:12
@@ -424,7 +422,7 @@ msgid ""
 msgstr ""
 
 #: app/templates/tips.html:23
-msgid "Làm thế nào để tôi xem các nội dung?"
+msgid "Cài đặt Plex cho PC/Laptop Windows"
 msgstr ""
 
 #: app/templates/tips.html:25
@@ -457,49 +455,61 @@ msgid "Cài đặt "
 msgstr ""
 
 #: app/templates/tips.html:32
-msgid ""
-"của Plex. Tùy chọn này thường nằm ở góc trên cùng bên phải, tùy thuộc vào"
-" thiết bị bạn đang sử dụng."
+msgid "của Plex nằm ở góc trên cùng bên phải."
 msgstr ""
 
 #: app/templates/tips.html:34
-msgid "Đi tới mục "
+msgid "Cũng ở góc phải nhưng phía dưới một chút bạn sẽ thấy nút "
 msgstr ""
 
 #: app/templates/tips.html:34
-msgid "Chất lượng"
+msgid "Hiển thị nâng cao (Show Advanced)"
 msgstr ""
 
 #: app/templates/tips.html:34
-msgid "hoặc"
+msgid " , bấm nút đó và kéo xuống dưới cùng chọn Lưu thay đổi."
 msgstr ""
 
-#: app/templates/tips.html:35
+#: app/templates/tips.html:35 app/templates/tips.html:52
 msgid "Quality"
 msgstr ""
 
-#: app/templates/tips.html:35
+#: app/templates/tips.html:35 app/templates/tips.html:52
 msgid "settings."
 msgstr ""
 
-#: app/templates/tips.html:37 app/templates/tips.html:41
-msgid "Chỉnh "
+#: app/templates/tips.html:37
+msgid "Ở khu vực bên trái hãy chọn "
 msgstr ""
 
 #: app/templates/tips.html:37
-msgid "Remote/Internet Streaming"
+msgid "Chất lượng (Quality)"
 msgstr ""
 
-#: app/templates/tips.html:37 app/templates/tips.html:41
-msgid "sang "
+#: app/templates/tips.html:37
+msgid ""
+" và chọn Maximum ở mục Video quality nằm bên phải => tắt ô tích ở mục Use"
+" recommended settings phía dưới và chọn Maximum của Video quality, bấm "
+"Lưu thay đổi. "
 msgstr ""
 
 #: app/templates/tips.html:38 app/templates/tips.html:42
 msgid "Maximum/Original"
 msgstr ""
 
+#: app/templates/tips.html:41 app/templates/tips.html:51
+msgid "Chọn "
+msgstr ""
+
 #: app/templates/tips.html:41
-msgid "Local Streaming "
+msgid "Trình phát (Player) "
+msgstr ""
+
+#: app/templates/tips.html:41
+msgid ""
+"ở phía tay trái, bỏ dấu tích ở mục Normalize Multi-channel audio, kéo "
+"xuống phía dưới một chút và chọn Ultra Quality ở mục Video Playback "
+"Quality, tích vào ô Use Hardware Decoding và bấm Lưu thay đổi."
 msgstr ""
 
 #: app/templates/tips.html:45
@@ -507,6 +517,46 @@ msgid ""
 "Ở các thiết bị có thêm phụ mục video, và mục liên quan tới mạng di động "
 "(3G/4G) hãy cứ chọn chất lượng gốc (Original) hoặc cao nhất (Maximum) để "
 "được trải nghiệm nghe nhìn tốt nhất."
+msgstr ""
+
+#: app/templates/tips.html:47
+msgid "Cài đặt Plex cho iOS/Android"
+msgstr ""
+
+#: app/templates/tips.html:49
+msgid "Ngay ở trang chủ của app, bấm vào mục "
+msgstr ""
+
+#: app/templates/tips.html:49
+msgid "Tab"
+msgstr ""
+
+#: app/templates/tips.html:49
+msgid " phía bên trái của chữ Home và chọn setting (hình bánh răng cưa)."
+msgstr ""
+
+#: app/templates/tips.html:51
+msgid "Quality (Chất lượng)"
+msgstr ""
+
+#: app/templates/tips.html:51
+msgid ""
+", chọn Tắt ở Automatically Adjust Quality, chọn Remote Streaming => chọn "
+"Show All và chọn Maximum."
+msgstr ""
+
+#: app/templates/tips.html:54
+msgid "Tại mục "
+msgstr ""
+
+#: app/templates/tips.html:54
+msgid "Advanced"
+msgstr ""
+
+#: app/templates/tips.html:54
+msgid ""
+", chọn Bật ở mục Allow Direct Play và Prefer Download Content, mục Burn "
+"Subtitles chọn Only Image Formats."
 msgstr ""
 
 #: app/templates/welcome.html:12
